@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/iamdamienfontaine.github.io/static/css/main.6429de7d.chunk.css",
+    "main.js": "/iamdamienfontaine.github.io/static/js/main.2a5a3e21.chunk.js",
+    "main.js.map": "/iamdamienfontaine.github.io/static/js/main.2a5a3e21.chunk.js.map",
+    "runtime-main.js": "/iamdamienfontaine.github.io/static/js/runtime-main.b9a42768.js",
+    "runtime-main.js.map": "/iamdamienfontaine.github.io/static/js/runtime-main.b9a42768.js.map",
+    "static/js/2.2a3078de.chunk.js": "/iamdamienfontaine.github.io/static/js/2.2a3078de.chunk.js",
+    "static/js/2.2a3078de.chunk.js.map": "/iamdamienfontaine.github.io/static/js/2.2a3078de.chunk.js.map",
+    "index.html": "/iamdamienfontaine.github.io/index.html",
+    "precache-manifest.30a782ca603552f0bb36016018a8d270.js": "/iamdamienfontaine.github.io/precache-manifest.30a782ca603552f0bb36016018a8d270.js",
+    "service-worker.js": "/iamdamienfontaine.github.io/service-worker.js",
+    "static/css/main.6429de7d.chunk.css.map": "/iamdamienfontaine.github.io/static/css/main.6429de7d.chunk.css.map",
+    "static/js/2.2a3078de.chunk.js.LICENSE.txt": "/iamdamienfontaine.github.io/static/js/2.2a3078de.chunk.js.LICENSE.txt",
+    "static/media/profileImage.jpg": "/iamdamienfontaine.github.io/static/media/profileImage.fb299435.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b9a42768.js",
+    "static/js/2.2a3078de.chunk.js",
+    "static/css/main.6429de7d.chunk.css",
+    "static/js/main.2a5a3e21.chunk.js"
+  ]
+}
