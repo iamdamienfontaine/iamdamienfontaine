@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <h1>Mon site internet est encore en développement !</h1>  
       <h2>Auteur : Damien Fontaine - étudiant en informatique </h2>
+      <p>Salut anne ! nous avons un problème avec le coro anne virus !!</p>
       <img src={profilImage} alt="profil" />
     </div>
   );
