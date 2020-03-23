@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as HashRouter,Link, Route } from "react-router-dom";
+import { BrowserRouter as HashRouter, Route } from "react-router-dom";
 
 import Footer from './component/layouts/Footer.js'
+import Header from './component/layouts/Header.js';
 import Index from './component/Index.js';
 import Contact from './component/Contact.js';
 import Projet from './component/Projet.js';
@@ -15,34 +16,8 @@ function App() {
     <div className="App">
       
       <HashRouter basename='/'>
-      <header>
-                <div id="header">
-                    <nav className="navbar1">
-                        <div className="container">
+      <Header/>
 
-                            <Link to="/site/" className="navbar-brand">
-                                Accueil
-                            </Link>
-
-                            <Link to="/site/projet" className="navbar-brand">
-                                Projet
-                            </Link>
-
-                            <Link to="/site/contact" className="navbar-brand">
-                                Contact
-                            </Link>
-                            
- 
-                        
-
-    
-                        </div>
-                    </nav>
-                </div>
-                <br/>
-                <br/>
-                
-            </header>
       <div>
         <Route exact path="/site/" component={Index} />
         <Route path="/site/projet" component={Projet} />

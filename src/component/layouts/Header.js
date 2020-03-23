@@ -9,7 +9,35 @@ class Header extends Component{
 
         return (
             
-            
+            <header>
+                <div id="header">
+
+                        
+                  
+                     
+
+                    <nav className="navbar1">
+                        <div className="container">
+                            <Link to="/site/" className="navbar-brand1">
+                                Accueil
+                            </Link>
+                        
+                            <Link to="/site/contact" className="navbar-brand">
+                                Contact
+                            </Link>
+                            <Link to="/site/projet" className="navbar-brand">
+                                Projet
+                            </Link>
+                            <Link to="/site/" className="navbar-brand">
+                                Accueil
+                            </Link>
+                        </div>
+                    </nav>
+                </div>
+                <br/>
+                <br/>
+                
+            </header>
         );
 
     }

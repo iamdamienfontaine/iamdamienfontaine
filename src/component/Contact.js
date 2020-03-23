@@ -37,11 +37,15 @@ render() {
     <div className="App">
       
       
+      <br/>
+      <br/>
       
-      <h1>Contactez moi !</h1>
-      <br/>
-      <br/>
+      <div className="formcss">
       <div className="col-md-8 m-auto">
+      <br/>
+      <h1>Contactez moi !</h1>
+      
+      <br/>
         <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
           
           <div className="form-group">
@@ -54,12 +58,13 @@ render() {
           </div>
           <div className="form-group">
               <label htmlFor="message">Message</label>
-              <textarea className="form-control" rows="5" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
+              <textarea className="form-control" rows="5" minLength="10" maxLength="500" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
           </div>
-          
+          <br/>
           <button type="submit" className="btn btn-primary justify-content-center d-flex w-100">Envoyer</button>
 
         </form>
+      </div>
       </div>
     </div>
  );
