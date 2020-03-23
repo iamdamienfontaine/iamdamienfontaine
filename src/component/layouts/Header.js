@@ -31,8 +31,11 @@ class Header extends Component{
                         </div>
                     </nav>
                 </div>
+                <br/>
+                <br/>
                 
             </header>
+            
         );
 
     }
