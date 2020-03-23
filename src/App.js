@@ -18,7 +18,7 @@ function App() {
       <HashRouter basename='/'>
       <div>
         <Route exact path="/" component={Index} />
-        <Route path="/projet" component={Projet} />
+        <Route path="/#/projet" component={Projet} />
         <Route path="/contact" component={Contact} />
       </div>
       </HashRouter>
