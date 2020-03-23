@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as HashRouter, Route } from "react-router-dom";
 
 import Footer from './component/layouts/Footer.js'
 import Navbar from './component/layouts/Header.js';
@@ -14,18 +14,15 @@ import Projet from './component/Projet.js';
 function App() {
   return (
     <div className="App">
-      <Router>
-        
-
-        <Navbar/>
-        <Switch>
-          <Route exact path="/site" component={Index} />
-          <Route exact path="/site/contact" component={Contact} />
-          <Route exact path="/site/projet" component={Projet} />
-        </Switch>
-        <Footer/>
-        
-      </Router>
+      <Navbar/>
+      <HashRouter basename='/'>
+      <div>
+        <Route exact path="/" component={Index} />
+        <Route path="/projet" component={Projet} />
+        <Route path="/contact" component={Contact} />
+      </div>
+      </HashRouter>
+      <Footer/>
     </div>
   );
 }
