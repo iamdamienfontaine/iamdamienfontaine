@@ -13,15 +13,15 @@ class Header extends Component{
                     <nav className="navbar1">
                         <div className="container">
 
-                            <Link to="/" className="navbar-brand">
+                            <Link to="/site" className="navbar-brand">
                                 Accueil
                             </Link>
 
-                            <Link to="/projet" className="navbar-brand">
+                            <Link to="/site/projet" className="navbar-brand">
                                 Projets
                             </Link>
 
-                            <Link to="/contact" className="navbar-brand">
+                            <Link to="/site/contact" className="navbar-brand">
                                 Contact
                             </Link>
 
