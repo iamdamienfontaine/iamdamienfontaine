@@ -14,15 +14,18 @@ import Projet from './component/Projet.js';
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      
       <HashRouter basename='/'>
+      <Navbar/>
       <div>
-        <Route exact path="#/" component={Index} />
-        <Route path="#/projet" component={Projet} />
-        <Route path="/#/contact" component={Contact} />
+        <Route exact path="/" component={Index} />
+        <Route path="/projet" component={Projet} />
+        <Route path="/contact" component={Contact} />
       </div>
-      </HashRouter>
+      
       <Footer/>
+      </HashRouter>
+      
     </div>
   );
 }
