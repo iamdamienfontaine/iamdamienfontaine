@@ -24,11 +24,11 @@ function App() {
                                 Accueil
                             </Link>
 
-                            <Link to="/projet" className="navbar-brand">
+                            <Link to="/site/projet" className="navbar-brand">
                                 Projet
                             </Link>
 
-                            <Link to="/contact" className="navbar-brand">
+                            <Link to="/site/contact" className="navbar-brand">
                                 Contact
                             </Link>
                             
@@ -45,8 +45,8 @@ function App() {
             </header>
       <div>
         <Route exact path="/site/" component={Index} />
-        <Route path="/projet" component={Projet} />
-        <Route path="/contact" component={Contact} />
+        <Route path="/site/projet" component={Projet} />
+        <Route path="/site/contact" component={Contact} />
       </div>
       
       <Footer/>
